@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl-delay: 10
+# Uncomment the above line if you want to limit crawl rate (requests per second)
+
+# Disallow crawling of admin area
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Allow all other pages
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+
+# Host
+Host: https://yourdomain.com
