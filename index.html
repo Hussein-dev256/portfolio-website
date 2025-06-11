@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hussein | Developer Portfolio | Web, App & System Design</title>
+    <meta name="description" content="Hussein - Expert Developer specializing in graphic design, website development, web applications, system design, and digital solutions. You need it built? I'll build it. You need it fixed? Say less.">
+    <meta name="keywords" content="Hussein, developer, web development, app development, graphic design, system design, UI/UX, portfolio, digital solutions, software engineer, code by hussein">
+    <meta name="author" content="Hussein">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <a href="#hero" class="logo-link">
+                <img src="images/logo.png" alt="Code by Hussein Logo" id="logo">
+                <span class="logo-text">code.by...&gt; --hussein</span>
+            </a>
+            <ul id="main-nav">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="btn btn-primary btn-nav-quote">Get a Quote</a></li>
+            </ul>
+            <button class="menu-toggle" id="mobile-menu-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!-- 'Get a Quote' button moved into the ul for better mobile layout control -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>You need it built? I'll build it.<br>You need it fixed? Say less.</h1>
+                        <p class="subtitle">Crafting innovative digital solutions, from stunning graphics and websites to robust web apps and systems.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">See My Work</a>
+                            <a href="#contact" class="btn btn-secondary">Book a Free Call</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down-indicator">
+                <span>Scroll down</span>
+                <div class="mouse-icon">
+                    <div class="wheel"></div>
+                </div>
+                <span>to see projects</span>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section fade-in-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content-wrapper">
+                    <div class="profile-image-container about-profile-image">
+                        <div class="profile-image-wrapper">
+                            <img src="images/profile.png" alt="Hussein - Developer" class="profile-image">
+                            <div class="profile-glow"></div>
+                        </div>
+                    </div>
+                    <div class="about-text-container">
+                        <h3>Hussein: Crafting Digital Excellence</h3>
+                        <p class="tagline"><em>"You need it built? I'll build it. You need it fixed? Say less."</em></p>
+                        <p>I'm a passionate and versatile developer specializing in creating high-impact digital experiences. With a strong foundation in graphic design, website development, web application architecture, and system design, I bring a holistic approach to every project. My goal is to translate complex challenges into elegant, user-centric solutions that not only meet but exceed expectations.</p>
+                        <p>From initial concept to final deployment, I'm dedicated to delivering quality, innovation, and results. Let's collaborate to bring your vision to life!</p>
+                        <h4>Core Strengths:</h4>
+                        <ul class="core-strengths">
+                            <li>Full-Stack Web Development</li>
+                            <li>Responsive UI/UX Design</li>
+                            <li>Custom Web Application Development</li>
+                            <li>Scalable System Architecture</li>
+                            <li>Graphic & Brand Identity Design</li>
+                            <li>Problem Solving & Technical Innovation</li>
+                        </ul>
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section fade-in-section">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Helping businesses stand out with cutting-edge web development, app creation, and digital solutions that captivate and convert effectively.</p>
+                <div class="skill-tags">
+                    <span>Website Development</span>
+                    <span>Web App Development</span>
+                    <span>Graphic Design</span>
+                    <span>System Design</span>
+                    <span>UI/UX Design</span>
+                    <span>Digital Solutions</span>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1: Websites -->
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <img src="images/icon-website.svg" alt="Websites Icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Websites</h3>
+                            <p class="service-description">Modern, responsive websites that convert visitors into customers. Built with the latest technologies and optimized for performance.</p>
+                        </div>
+                    </div>
+                    <!-- Service 2: Web Apps -->
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <img src="images/icon-webapp.svg" alt="Web Apps Icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Web Apps</h3>
+                            <p class="service-description">Interactive web applications with seamless user experiences. From simple tools to complex business platforms.</p>
+                        </div>
+                    </div>
+                    <!-- Service 3: Mobile Apps -->
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <img src="images/icon-mobile.svg" alt="Mobile Apps Icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Mobile Apps</h3>
+                            <p class="service-description">Native and cross-platform mobile applications that work flawlessly across all devices and platforms.</p>
+                        </div>
+                    </div>
+                    <!-- Service 4: Business Systems -->
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <img src="images/icon-system.svg" alt="Business Systems Icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Business Systems</h3>
+                            <p class="service-description">Custom business solutions and automation systems that streamline operations and boost productivity.</p>
+                        </div>
+                    </div>
+                    <!-- Service 5: Graphic Design -->
+                    <div class="service-card">
+                        <div class="service-icon-container">
+                            <img src="images/icon-design.svg" alt="Graphic Design Icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="service-title">Graphic Design</h3>
+                            <p class="service-description">Eye-catching visual designs that communicate your brand message effectively and professionally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Recent Works</h2>
+                <p class="section-subtitle">Here's a glimpse of some projects I've passionately brought to life. Each crafted with precision, creativity, and a focus on delivering impactful results.</p>
+                <div class="project-grid">
+                    <!-- Project 1: E-commerce App -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-ecommerce.svg" alt="E-commerce App Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce App</h3>
+                            <p class="project-description">A full-featured online store with payment integration, inventory management, and customer analytics.</p>
+                            <a href="#" class="btn btn-primary btn-view-casestudy">View Case Study <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                    <!-- Project 2: Image Recognition App -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-image-recognition.svg" alt="Image Recognition App Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Image Recognition App</h3>
+                            <p class="project-description">A powerful tool that identifies objects, people, and text in images using machine learning.</p>
+                            <a href="#" class="btn btn-primary btn-view-casestudy">View Case Study <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                    <!-- Project 3: Portfolio Website -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-portfolio-website.svg" alt="Portfolio Website Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Portfolio</h3>
+                            <p class="project-description">A sleek, modern portfolio website to showcase skills, projects, and professional experience.</p>
+                            <a href="#" class="btn btn-primary btn-view-casestudy">View Case Study <span class="arrow">→</span></a>
+                        </div>
+                    </div>
+                    <!-- Project 4: Chat App -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-chat-app.svg" alt="WhatsApp Booking System Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">WhatsApp Booking System</h3>
+                            <p class="project-description">A web-based booking and ordering system accessible via WhatsApp link, allowing businesses to manage appointments and orders through a familiar chat interface.</p>
+                            <a href="#" class="btn btn-secondary btn-view-casestudy">Coming Soon</a>
+                        </div>
+                    </div>
+                    <!-- Project 5: Blockchain Ledger -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-blockchain.svg" alt="Blockchain Ledger Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Decentralized Ledger</h3>
+                            <p class="project-description">A secure, blockchain-based ledger system for transparent and immutable transaction recording.</p>
+                            <a href="#" class="btn btn-secondary btn-view-casestudy">Coming Soon</a>
+                        </div>
+                    </div>
+                    <!-- Project 6: Coming Soon -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/icon-coming-soon.svg" alt="Coming Soon Icon">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">New Project</h3>
+                            <p class="project-description">Another exciting project is in the works. Check back soon for more details and a live demo!</p>
+                            <a href="#" class="btn btn-secondary btn-view-casestudy">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center" style="margin-top: 40px;">
+                    <a href="#contact" class="btn btn-primary">Discuss Your Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section fade-in-section">
+            <div class="container">
+                <h2 class="section-title">My Experience</h2>
+                <div class="experience-timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="experience-item">
+                        <div class="experience-dot"></div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Full Stack Developer</h3>
+                            <p class="experience-info">Visual AI Project | Feb 2023 - Present</p>
+                            <p>Led the development of an advanced image recognition and identification Android application. Designed and implemented both frontend and backend components, ensuring seamless integration with machine learning models for accurate image processing and analysis.</p>
+                            <ul class="experience-skills">
+                                <li>Android Development</li><li>Python</li><li>TensorFlow</li><li>RESTful APIs</li><li>Firebase</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Experience Item 2 -->
+                    <div class="experience-item">
+                        <div class="experience-dot"></div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">UI/UX Designer</h3>
+                            <p class="experience-info">Freelance | Sep 2022 - Jan 2023</p>
+                            <p>Designed and developed responsive websites using Framer, creating intuitive user interfaces and engaging user experiences. Collaborated with clients to transform their vision into pixel-perfect digital experiences that drive engagement and conversions.</p>
+                            <ul class="experience-skills">
+                                <li>Framer</li><li>Figma</li><li>UI/UX Design</li><li>Prototyping</li><li>Responsive Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Experience Item 3 -->
+                    <div class="experience-item">
+                        <div class="experience-dot"></div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">Junior Data Annotator</h3>
+                            <p class="experience-info">Sama Source Uganda LTD | Jun 2021 - Aug 2022</p>
+                            <p>Accurately annotated and labeled large datasets for machine learning models, ensuring high-quality training data. Collaborated with team members to maintain annotation guidelines and improve data quality for computer vision applications.</p>
+                            <ul class="experience-skills">
+                                <li>Data Annotation</li><li>Quality Control</li><li>Computer Vision</li><li>Team Collaboration</li><li>Data Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">What My Clients Say</h2>
+                <p class="section-subtitle">I take pride in building strong relationships and delivering solutions that exceed expectations. Here's what some of my clients have to share about their experience.</p>
+                <div class="testimonial-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote-icon">"</div>
+                        <p class="testimonial-text">Hussein created a stunning website for my local business that perfectly captures our brand's essence. The site is not only beautiful but also user-friendly and mobile-responsive. Our online presence has improved dramatically since the launch.</p>
+                        <div class="testimonial-author">
+                            <img src="https://ui-avatars.com/api/?name=Ssempala+Austin&background=8257E6&color=fff&size=200" alt="Ssempala Austin" class="author-avatar">
+                            <div class="author-info">
+                                <h4 class="author-name">Ssempala Austin</h4>
+                                <p class="author-title">Business Owner</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote-icon">"</div>
+                        <p class="testimonial-text">The inventory management system Hussein developed for our supermarket has revolutionized our operations. It's intuitive, reliable, and has significantly reduced our stock management time. His attention to our specific needs was impressive.</p>
+                        <div class="testimonial-author">
+                            <img src="https://ui-avatars.com/api/?name=Samson+Tumusingwire&background=6A4A9A&color=fff&size=200" alt="Samson Tumusingwire" class="author-avatar">
+                            <div class="author-info">
+                                <h4 class="author-name">Samson Tumusingwire</h4>
+                                <p class="author-title">Supermarket Manager</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote-icon">"</div>
+                        <p class="testimonial-text">Hussein's booking system for my salon has been a game-changer. It's professional, easy to use, and has streamlined our appointment process. Our clients love the convenience, and it's helped us manage our bookings more efficiently than ever before.</p>
+                        <div class="testimonial-author">
+                            <img src="https://ui-avatars.com/api/?name=Khadijah+Alangi&background=4A2E7A&color=fff&size=200" alt="Khadijah Alangi" class="author-avatar">
+                            <div class="author-info">
+                                <h4 class="author-name">Khadijah Alangi</h4>
+                                <p class="author-title">Owner, Unisex Hair Salon</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section-new">
+            <div class="container">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="contact-form-wrapper">
+                    <form id="newContactForm" class="new-contact-form">
+                        <div class="form-group">
+                            <label for="yourName">Your Name</label>
+                            <input type="text" id="yourName" name="yourName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" id="emailAddress" name="emailAddress" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type</label>
+                            <input type="text" id="projectType" name="projectType" placeholder="Website, App, System, etc.">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectDetails">Project Details</label>
+                            <textarea id="projectDetails" name="projectDetails" rows="5" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-send-message">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Code by Hussein Logo" class="footer-logo-img">
+                    </div>
+                    <p class="footer-tagline">You need it built? I'll build it. You need it fixed? Say less.</p>
+                    <div class="footer-social-links">
+                        <a href="https://linkedin.com/in/Code.ByHussein" target="_blank" aria-label="LinkedIn Profile" title="LinkedIn" class="social-link">
+                            <span class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </span>
+                            <span class="social-text">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Code.ByHussein" target="_blank" aria-label="GitHub Profile" title="GitHub" class="social-link">
+                            <span class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </span>
+                            <span class="social-text">GitHub</span>
+                        </a>
+                        <a href="https://twitter.com/Code.ByHussein" target="_blank" aria-label="Twitter Profile" title="Twitter" class="social-link">
+                            <span class="social-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </span>
+                            <span class="social-text">Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-group">
+                        <h3 class="footer-links-title">Navigation</h3>
+                        <a href="#about" class="footer-link">About</a>
+                        <a href="#services" class="footer-link">Services</a>
+                        <a href="#projects" class="footer-link">Projects</a>
+                        <a href="#experience" class="footer-link">Experience</a>
+                        <a href="#testimonials" class="footer-link">Testimonials</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <h3 class="footer-links-title">Services</h3>
+                        <a href="#" class="footer-link">Web Development</a>
+                        <a href="#" class="footer-link">App Development</a>
+                        <a href="#" class="footer-link">UI/UX Design</a>
+                        <a href="#" class="footer-link">System Design</a>
+                        <a href="#" class="footer-link">Consulting</a>
+                    </div>
+                    <div class="footer-links-group">
+                        <h3 class="footer-links-title">Contact</h3>
+                        <a href="mailto:husseintech256@gmail.com" class="footer-link">husseintech256@gmail.com</a>
+                        <a href="tel:+256760305803" class="footer-link">+256 760 305803</a>
+                        <div class="footer-newsletter">
+                            <p>Subscribe to my newsletter</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Your email" required>
+                                <button type="submit" class="btn-newsletter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright-text">&copy; 2024 <span class="highlight">Hussein</span> <span class="brand-code">&lt;code.by...&gt;</span>. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Privacy Policy</a>
+                    <span class="divider">•</span>
+                    <a href="#" class="legal-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
