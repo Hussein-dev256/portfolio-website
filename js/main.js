@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // Mobile menu toggle
+<<<<<<< HEAD
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const mainNav = document.getElementById('main-nav');
     const menuOverlay = document.querySelector('.menu-overlay');
@@ -114,6 +115,13 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!isClickInside && mainNav.classList.contains('active')) {
                 closeMobileMenu();
             }
+=======
+    if (menuToggle && navUl) {
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = navUl.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+            menuToggle.setAttribute('aria-expanded', isExpanded);
+>>>>>>> 06c6103a746ca9a07872f2576373184eb9235dd4
         });
     }
 
